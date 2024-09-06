@@ -6,9 +6,9 @@ You need to set an environment variable OPENAI_KEY to contain your Open AI key.
 Cool things and things to watch out for:
 
 ```
-    1. Usage:  `llm-assist @ "message" `
+1. Usage:  `llm-assist @ "message" `
 
-    2. If you run `llm-assist <bash command>` it will try to execute it first.
+2. If you run `llm-assist <bash command>` it will try to execute it first.
     Then, it will collect any error message and send both the bash command and 
     error message to LLM to fix it. 
 ```
